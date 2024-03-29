@@ -13,7 +13,7 @@ import Login from "./Pages/Login/Login";
 import './styles/global.scss'
 
 function App() {
-// 28:10 --Youtube
+// 47:54 --Youtube
   const Layout = () =>{
     return(
       <div className="main">
@@ -22,7 +22,7 @@ function App() {
           <div className="menuContainer">
             <Menu/>
           </div>
-          <div className="contentConteiner">
+          <div className="contentContainer">
            <Outlet/>
           </div>
         </div>

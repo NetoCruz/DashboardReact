@@ -11,9 +11,11 @@ import Footer from "./Components/Footer/Footer";
 import Menu from "./Components/Menu/Menu";
 import Login from "./Pages/Login/Login";
 import './styles/global.scss'
+import User from "./Pages/User/User";
+import Product from "./Pages/Product/Product";
 
 function App() {
-// 01:54:10 --Youtube
+// 02:08:10 --Youtube
   const Layout = () =>{
     return(
       <div className="main">
@@ -47,6 +49,14 @@ function App() {
        {
         path:'/products',
         element:<Products/>
+       },
+       {
+        path:'/user/:id',
+        element:<User/>
+       },
+       {
+        path:'/product/:id',
+        element:<Product/>
        }
      ],
     },
